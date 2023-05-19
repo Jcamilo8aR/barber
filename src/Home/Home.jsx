@@ -6,7 +6,6 @@ export function Home(){
     return(
         <>
         <section><Historia/></section>
-        <section><Footer/></section>
         </>
     )
 }

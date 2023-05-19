@@ -19,7 +19,7 @@ export function Footer() {
                                 <h6 className="text-uppercase fw-bold mb-2">
                                     <i className="text-secondary"></i>Magic Barber
                                 </h6>
-                                <p className="text-left">
+                                <p className="text-left fs-6">
                                     Contamos con productos y servicios de la mejor calidad. !Agenda tu cita ahora mismo! No te arrepentiras.
                                 </p>
                             </div>

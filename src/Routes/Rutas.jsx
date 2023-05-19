@@ -5,6 +5,7 @@ import {Menu} from "../shared/Menu/Menu"
 import {Servicios} from "../Servicios/Servicios"
 import { Empleados } from "../Empleados/Empleados";
 import { Agenda } from "../Agenda/Agenda";
+import { Footer } from "../shared/Footer/Footer";
 
 export function Rutas(){
     return(
@@ -16,6 +17,7 @@ export function Rutas(){
         <Route path="/empleados" element={<Empleados />} />
         <Route path="/agenda" element={<Agenda />} />
         </Routes>
+        <Footer/>
         </>
     )
 }
