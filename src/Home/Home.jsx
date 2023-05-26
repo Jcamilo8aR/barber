@@ -15,22 +15,19 @@ export function Home(){
 
     setTimeout(function(){
         setTiempoCarga(1)
-    },5000)
+    },0)
 
     if(estadoDecarga){
-
         return(
             <>
                 <Carga/>
             </>
         )
-
     }else{
 
     return(
         <>
         <section><Historia/></section>
-        <section><Footer/></section>
         </>
     )
 }
